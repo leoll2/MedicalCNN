@@ -8,7 +8,16 @@ The classification task consists in distinguishing between the four cases:
 - Benign calcification
 - Malignant calcification
 
-The full report is available [**here**](https://github.com/leoll2/MedicalCNN/blob/master/report.pdf).
+A subtask is to just distinguish masses from calcifications.
+
+The full detailed report is available [**here**](https://github.com/leoll2/MedicalCNN/blob/master/report.pdf).
+
+<img src="img/calcification.png" width="250"/> <img src="img/mass.png" width="250"/>  
+
+*Left: example of mass*
+*Right: example of calcification*
+
+---
 
 ## Repo structure
 
@@ -31,9 +40,32 @@ Extra:
 
 - [LearningRate](https://github.com/leoll2/MedicalCNN/blob/master/scripts/LearningRate.ipynb): Experiments tuning the learning rate for different optimizers.
 
+You can download the dataset from [Google Drive](https://drive.google.com/open?id=149C_IRf2z8QkAVJIgzQX21OCXturcmEg). All the scripts assume that the dataset zip file is located in the root of your Google Drive folder, but you can easily change it.
+
+---
+
 ## Experiments and results
 
-[TODO]
+I developed and tested many models for the 2-class and 4-class tasks.
+
+The best model for the 2-class task obtained a 91.37% accuracy on the test set.
+The best model for the 4-class task obtained a 61.01% accuracy on the test set.
+
+Comparing the results with those presented in many papers, the models achieved state-of-the-art accuracy [1][2][3].
+
+```
+[1] Neeraj Dhungel, Gustavo Carneiro, and Andrew P Bradley. “Automated mass
+detection in mammograms using cascaded deep learning and random forests”.
+In: 2015 international conference on digital image computing
+[2] Dina A Ragab et al. “Breast cancer detection using deep convolutional neural
+networks and support vector machines”. In: PeerJ 7 (2019)   
+[3] Li Shen et al. “Deep learning to improve breast cancer detection on screening
+mammography”. In: Scientific reports 9.1 (2019)  
+```
+
+See the report for full details.
+
+---
 
 ## Tools
 
@@ -42,6 +74,7 @@ The project was developed using the following technologies:
 - **Keras**: open-source library for experimentation with deep neural networks
 - **Google Colab**: free cloud-based Jupyter notebook environment by Google
 
+---
 
 ## About the dataset
 
@@ -49,6 +82,8 @@ The dataset of interest is the **CBIS DDSM** *(Curated Breast Imaging Subset of 
 ```
 Rebecca Sawyer Lee, Francisco Gimenez, Assaf Hoogi , Daniel Rubin  (2016). Curated Breast Imaging Subset of DDSM [Dataset]. The Cancer Imaging Archive. DOI: 10.7937/K9/TCIA.2016.7O02S9CY
 ```
+
+---
 
 ## Credits
 
