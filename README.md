@@ -40,7 +40,7 @@ Extra:
 
 - [LearningRate](https://github.com/leoll2/MedicalCNN/blob/master/scripts/LearningRate.ipynb): Experiments tuning the learning rate for different optimizers.
 
-You can download the dataset from [Google Drive](https://drive.google.com/open?id=149C_IRf2z8QkAVJIgzQX21OCXturcmEg). All the scripts assume that the dataset zip file is located in the root of your Google Drive folder, but you can easily change it.
+You can download the dataset from [Google Drive](https://drive.google.com/open?id=1bCzrSgELJPP2Me7wIvWX-ck9OAdHDUp6). All the scripts assume that the dataset zip file is located in the root of your Google Drive folder, but you can easily change it.
 
 ---
 
