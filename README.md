@@ -1,5 +1,11 @@
 # MedicalCNN
 
+<img alt="Python" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>|<img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/>|[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/251420622.svg)](https://zenodo.org/badge/latestdoi/251420622)
+
+
 This project aims to perform **abnormality classification** in mammography by means of **Convolutional Neural Networks**. The dataset of interest is the **CBIS DDSM** dataset. The mammogram images feature two kinds of breast abnormalities: mass and calcification, which can be either benign or malignant.  
 The classification task consists in distinguishing between the four cases:
 
@@ -87,4 +93,18 @@ Rebecca Sawyer Lee, Francisco Gimenez, Assaf Hoogi , Daniel Rubin  (2016). Curat
 
 ## Credits
 
-- **Leonardo Lai**: I designed and performed all the experiments in this project
+The author (Leonardo Lai) designed and performed all the experiments listed in the project. 
+
+If you want to cite this work, please use the following:
+```
+@software{leonardo_lai_2021_4700130,
+  author       = {Leonardo Lai},
+  title        = {leoll2/MedicalCNN: v1.0},
+  month        = apr,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.4700130},
+  url          = {https://doi.org/10.5281/zenodo.4700130}
+}
+```
